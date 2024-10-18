@@ -292,7 +292,7 @@ h3 {
         margin: 0px auto;
         /* width: 100%; */
         height: auto;
-        /* flex-wrap: nowrap; */
+         flex-wrap: nowrap; 
         align-items: center;
     }
 
