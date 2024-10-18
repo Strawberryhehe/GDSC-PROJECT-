@@ -35,7 +35,7 @@ createChart(document.getElementById('visitorsWeek'), 'Website Visitors (Week)', 
 createChart(document.getElementById('salesCallsMonth'), 'Sales Calls (Month)', [80, 90, 100, 120], '#98FB98'); // Pale Green
 createChart(document.getElementById('dealsClosedMonth'), 'Deals Closed (Month)', [30, 40, 55, 70], '#FFDAB9'); // Peach Puff
 createChart(document.getElementById('installationsMonth'), 'Installations (Month)', [10, 20, 35, 50], '#FFDEAD'); // Navajo White
-createChart(document.getElementById('billingsMonth'), 'Billings (Month)', [5000, 6000, 7500, 8500], '#E6E6FA'); // Lavender
+createChart(document.getElementById('billingsMonth'), 'Billings (Month)', [5000, 6000, 7500, 8500], '#E6E6FA'); 
 
 
 const profitMonth = new Chart(document.getElementById('profitMonth'), {
@@ -45,7 +45,7 @@ const profitMonth = new Chart(document.getElementById('profitMonth'), {
         datasets: [{
             label: 'Profit (in ₹)',
             data: [120000, 150000, 180000, 170000, 200000, 220000],
-            backgroundColor: '#FFB6C1', // Pastel Pink
+            backgroundColor: '#FFB6C1',
             borderColor: '#FF69B4',
             borderWidth: 2
         }]
@@ -59,8 +59,7 @@ const profitMonth = new Chart(document.getElementById('profitMonth'), {
         }
     }
 });
-
-// Line chart: Profit Every Week
+
 const profitWeek = new Chart(document.getElementById('profitWeek'), {
     type: 'line',
     data: {
