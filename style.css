@@ -232,6 +232,7 @@ body {
 .dashboard {
     display: flex;
     justify-content: space-between;
+    flex-wrap:wrap;
     padding: 20px;
     margin: 5% auto;
     /* background-color: #333; */
