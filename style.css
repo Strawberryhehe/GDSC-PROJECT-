@@ -267,17 +267,15 @@ h3 {
 
 @media (max-width:960px) {
     .profile {
-        flex-direction:column;
         height: auto;
         align-items: center;
-        justify-content:center;
+        flex-wrap: wrap;
     }
 
     .board {
-        flex-direction: column;
         height: auto;
-        width: 100%;
         align-items: center;
+        flex-wrap: wrap;
     }
 
     .board1 {
