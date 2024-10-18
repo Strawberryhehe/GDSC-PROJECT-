@@ -76,6 +76,7 @@ body {
     margin: 5% auto;
     border-radius: 20px;
     align-items: center;
+    overflow:hidden;
 }
 
 .profile1 {
@@ -159,6 +160,7 @@ body {
     /* background-color: #333; */
     padding: 5%;
     border-radius: 20px;
+    overflow:hidden;
 }
 
 .board1 {
